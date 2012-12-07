@@ -1,768 +1,528 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>09DB768A16725DE6003C028C</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>09DB769F16725DE6003C028C</string>
-				<string>09DB769816725DE6003C028C</string>
-				<string>09DB769616725DE6003C028C</string>
-				<string>E33E9DB324FA484085328A06</string>
-			</array>
-			<key>indentWidth</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-			<key>tabWidth</key>
-			<string>4</string>
-			<key>usesTabs</key>
-			<string>0</string>
-		</dict>
-		<key>09DB768C16725DE6003C028C</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>CLASSPREFIX</key>
-				<string>LL</string>
-				<key>LastUpgradeCheck</key>
-				<string>0450</string>
-				<key>ORGANIZATIONNAME</key>
-				<string>Diana Zmuda</string>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>09DB768F16725DE6003C028C</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-			</array>
-			<key>mainGroup</key>
-			<string>09DB768A16725DE6003C028C</string>
-			<key>productRefGroup</key>
-			<string>09DB769616725DE6003C028C</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>09DB769416725DE6003C028C</string>
-			</array>
-		</dict>
-		<key>09DB768F16725DE6003C028C</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>09DB76B716725DE6003C028C</string>
-				<string>09DB76B816725DE6003C028C</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>09DB769116725DE6003C028C</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>09DB76A616725DE6003C028C</string>
-				<string>09DB76AA16725DE6003C028C</string>
-				<string>09DB76B616725DE6003C028C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>09DB769216725DE6003C028C</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>09DB769A16725DE6003C028C</string>
-				<string>09DB769C16725DE6003C028C</string>
-				<string>09DB769E16725DE6003C028C</string>
-				<string>D30778C37D9A4FACAD5CC2CD</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>09DB769316725DE6003C028C</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>09DB76A416725DE6003C028C</string>
-				<string>09DB76AC16725DE6003C028C</string>
-				<string>09DB76AE16725DE6003C028C</string>
-				<string>09DB76B016725DE6003C028C</string>
-				<string>09DB76B316725DE6003C028C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>09DB769416725DE6003C028C</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>09DB76B916725DE6003C028C</string>
-			<key>buildPhases</key>
-			<array>
-				<string>09DB769116725DE6003C028C</string>
-				<string>09DB769216725DE6003C028C</string>
-				<string>09DB769316725DE6003C028C</string>
-				<string>43300574BDD14D169355CDF3</string>
-				<string>CAA8554818E442DABEA89F32</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>LunchLady</string>
-			<key>productName</key>
-			<string>LunchLady</string>
-			<key>productReference</key>
-			<string>09DB769516725DE6003C028C</string>
-			<key>productType</key>
-			<string>com.apple.product-type.application</string>
-		</dict>
-		<key>09DB769516725DE6003C028C</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.application</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>LunchLady.app</string>
-			<key>path</key>
-			<string>LunchLady.app</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>09DB769616725DE6003C028C</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>09DB769516725DE6003C028C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>09DB769816725DE6003C028C</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>09DB769916725DE6003C028C</string>
-				<string>09DB769B16725DE6003C028C</string>
-				<string>09DB769D16725DE6003C028C</string>
-				<string>37933AC956C24F70B4C168C6</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>09DB769916725DE6003C028C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>UIKit.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/UIKit.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>09DB769A16725DE6003C028C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>09DB769916725DE6003C028C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>09DB769B16725DE6003C028C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>09DB769C16725DE6003C028C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>09DB769B16725DE6003C028C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>09DB769D16725DE6003C028C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>CoreGraphics.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/CoreGraphics.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>09DB769E16725DE6003C028C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>09DB769D16725DE6003C028C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>09DB769F16725DE6003C028C</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>09DB76A816725DE6003C028C</string>
-				<string>09DB76A916725DE6003C028C</string>
-				<string>09DB76B116725DE6003C028C</string>
-				<string>09DB76B416725DE6003C028C</string>
-				<string>09DB76B516725DE6003C028C</string>
-				<string>09DB76A016725DE6003C028C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>LunchLady</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>09DB76A016725DE6003C028C</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>09DB76A116725DE6003C028C</string>
-				<string>09DB76A216725DE6003C028C</string>
-				<string>09DB76A516725DE6003C028C</string>
-				<string>09DB76A716725DE6003C028C</string>
-				<string>09DB76AB16725DE6003C028C</string>
-				<string>09DB76AD16725DE6003C028C</string>
-				<string>09DB76AF16725DE6003C028C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Supporting Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>09DB76A116725DE6003C028C</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>LunchLady-Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>09DB76A216725DE6003C028C</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>09DB76A316725DE6003C028C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>InfoPlist.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>09DB76A316725DE6003C028C</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.strings</string>
-			<key>name</key>
-			<string>en</string>
-			<key>path</key>
-			<string>en.lproj/InfoPlist.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>09DB76A416725DE6003C028C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>09DB76A216725DE6003C028C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>09DB76A516725DE6003C028C</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>main.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>09DB76A616725DE6003C028C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>09DB76A516725DE6003C028C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>09DB76A716725DE6003C028C</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>LunchLady-Prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>09DB76A816725DE6003C028C</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>LLAppDelegate.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>09DB76A916725DE6003C028C</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>LLAppDelegate.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>09DB76AA16725DE6003C028C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>09DB76A916725DE6003C028C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>09DB76AB16725DE6003C028C</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>Default.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>09DB76AC16725DE6003C028C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>09DB76AB16725DE6003C028C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>09DB76AD16725DE6003C028C</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>Default@2x.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>09DB76AE16725DE6003C028C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>09DB76AD16725DE6003C028C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>09DB76AF16725DE6003C028C</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>Default-568h@2x.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>09DB76B016725DE6003C028C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>09DB76AF16725DE6003C028C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>09DB76B116725DE6003C028C</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>09DB76B216725DE6003C028C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>MainStoryboard.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>09DB76B216725DE6003C028C</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.storyboard</string>
-			<key>name</key>
-			<string>en</string>
-			<key>path</key>
-			<string>en.lproj/MainStoryboard.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>09DB76B316725DE6003C028C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>09DB76B116725DE6003C028C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>09DB76B416725DE6003C028C</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>LLViewController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>09DB76B516725DE6003C028C</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>LLViewController.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>09DB76B616725DE6003C028C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>09DB76B516725DE6003C028C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>09DB76B716725DE6003C028C</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>6.0</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>09DB76B816725DE6003C028C</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>6.0</string>
-				<key>OTHER_CFLAGS</key>
-				<string>-DNS_BLOCK_ASSERTIONS=1</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>09DB76B916725DE6003C028C</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>09DB76BA16725DE6003C028C</string>
-				<string>09DB76BB16725DE6003C028C</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>09DB76BA16725DE6003C028C</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>E33E9DB324FA484085328A06</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>LunchLady/LunchLady-Prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>LunchLady/LunchLady-Info.plist</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>WARNING_CFLAGS</key>
-				<string>-Wall</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>app</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>09DB76BB16725DE6003C028C</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>E33E9DB324FA484085328A06</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>LunchLady/LunchLady-Prefix.pch</string>
-				<key>GCC_TREAT_WARNINGS_AS_ERRORS</key>
-				<string>YES</string>
-				<key>INFOPLIST_FILE</key>
-				<string>LunchLady/LunchLady-Info.plist</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>WARNING_CFLAGS</key>
-				<string>-Wall</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>app</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>37933AC956C24F70B4C168C6</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>libPods.a</string>
-			<key>path</key>
-			<string>libPods.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>43300574BDD14D169355CDF3</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Warn for TODO and FIXME comments</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>KEYWORDS="TODO:|FIXME:|\?\?\?:|\!\!\!:"
-find "${SRCROOT}" -ipath "${SRCROOT}/vendor" -prune -o \( -name "*.h" -or -name "*.m" \) -print0 | xargs -0 egrep --with-filename --line-number --only-matching "($KEYWORDS).*\$" | perl -p -e "s/($KEYWORDS)/ warning: \$1/"
-</string>
-		</dict>
-		<key>CAA8554818E442DABEA89F32</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Copy Pods Resources</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Pods-resources.sh"
-</string>
-		</dict>
-		<key>D30778C37D9A4FACAD5CC2CD</key>
-		<dict>
-			<key>fileRef</key>
-			<string>37933AC956C24F70B4C168C6</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E33E9DB324FA484085328A06</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Pods.xcconfig</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>09DB768C16725DE6003C028C</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		096446E5167281EB00F42667 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 096446E4167281EB00F42667 /* InfoPlist.strings */; };
+		09DB769A16725DE6003C028C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09DB769916725DE6003C028C /* UIKit.framework */; };
+		09DB769C16725DE6003C028C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09DB769B16725DE6003C028C /* Foundation.framework */; };
+		09DB769E16725DE6003C028C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09DB769D16725DE6003C028C /* CoreGraphics.framework */; };
+		09DB76A416725DE6003C028C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 09DB76A216725DE6003C028C /* InfoPlist.strings */; };
+		09DB76A616725DE6003C028C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 09DB76A516725DE6003C028C /* main.m */; };
+		09DB76AA16725DE6003C028C /* LLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 09DB76A916725DE6003C028C /* LLAppDelegate.m */; };
+		09DB76AC16725DE6003C028C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 09DB76AB16725DE6003C028C /* Default.png */; };
+		09DB76AE16725DE6003C028C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 09DB76AD16725DE6003C028C /* Default@2x.png */; };
+		09DB76B016725DE6003C028C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 09DB76AF16725DE6003C028C /* Default-568h@2x.png */; };
+		09DB76B316725DE6003C028C /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09DB76B116725DE6003C028C /* MainStoryboard.storyboard */; };
+		09DB76B616725DE6003C028C /* LLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09DB76B516725DE6003C028C /* LLViewController.m */; };
+		09DB774516727810003C028C /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09DB774416727810003C028C /* SenTestingKit.framework */; };
+		09DB774616727810003C028C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09DB769916725DE6003C028C /* UIKit.framework */; };
+		09DB774716727810003C028C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09DB769B16725DE6003C028C /* Foundation.framework */; };
+		09DB775016727810003C028C /* UnitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 09DB774F16727810003C028C /* UnitTests.m */; };
+		A92A8B8523B14B86922E8A59 /* libPods-UnitTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 067B5BFACA3F431DB10EBE0D /* libPods-UnitTests.a */; };
+		D30778C37D9A4FACAD5CC2CD /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 37933AC956C24F70B4C168C6 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		09DB77561672781D003C028C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09DB768C16725DE6003C028C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09DB769416725DE6003C028C;
+			remoteInfo = LunchLady;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		067B5BFACA3F431DB10EBE0D /* libPods-UnitTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UnitTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		096446E4167281EB00F42667 /* InfoPlist.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = InfoPlist.strings; sourceTree = "<group>"; };
+		09DB769516725DE6003C028C /* LunchLady.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LunchLady.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		09DB769916725DE6003C028C /* UIKit.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		09DB769B16725DE6003C028C /* Foundation.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		09DB769D16725DE6003C028C /* CoreGraphics.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		09DB76A116725DE6003C028C /* LunchLady-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LunchLady-Info.plist"; sourceTree = "<group>"; };
+		09DB76A316725DE6003C028C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		09DB76A516725DE6003C028C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		09DB76A716725DE6003C028C /* LunchLady-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LunchLady-Prefix.pch"; sourceTree = "<group>"; };
+		09DB76A816725DE6003C028C /* LLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLAppDelegate.h; sourceTree = "<group>"; };
+		09DB76A916725DE6003C028C /* LLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLAppDelegate.m; sourceTree = "<group>"; };
+		09DB76AB16725DE6003C028C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		09DB76AD16725DE6003C028C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		09DB76AF16725DE6003C028C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		09DB76B216725DE6003C028C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		09DB76B416725DE6003C028C /* LLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLViewController.h; sourceTree = "<group>"; };
+		09DB76B516725DE6003C028C /* LLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLViewController.m; sourceTree = "<group>"; };
+		09DB774316727810003C028C /* UnitTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		09DB774416727810003C028C /* SenTestingKit.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		09DB774A16727810003C028C /* UnitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UnitTests-Info.plist"; sourceTree = "<group>"; };
+		09DB774E16727810003C028C /* UnitTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UnitTests.h; sourceTree = "<group>"; };
+		09DB774F16727810003C028C /* UnitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UnitTests.m; sourceTree = "<group>"; };
+		09DB775116727810003C028C /* UnitTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UnitTests-Prefix.pch"; sourceTree = "<group>"; };
+		37933AC956C24F70B4C168C6 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB387EFDC4D149C4A2FFB71E /* Pods-UnitTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnitTests.xcconfig"; path = "Pods/Pods-UnitTests.xcconfig"; sourceTree = SOURCE_ROOT; };
+		E33E9DB324FA484085328A06 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		09DB769216725DE6003C028C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09DB769A16725DE6003C028C /* UIKit.framework in Frameworks */,
+				09DB769C16725DE6003C028C /* Foundation.framework in Frameworks */,
+				09DB769E16725DE6003C028C /* CoreGraphics.framework in Frameworks */,
+				D30778C37D9A4FACAD5CC2CD /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09DB773F16727810003C028C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09DB774516727810003C028C /* SenTestingKit.framework in Frameworks */,
+				09DB774616727810003C028C /* UIKit.framework in Frameworks */,
+				09DB774716727810003C028C /* Foundation.framework in Frameworks */,
+				A92A8B8523B14B86922E8A59 /* libPods-UnitTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09DB768A16725DE6003C028C = {
+			isa = PBXGroup;
+			children = (
+				09DB769F16725DE6003C028C /* LunchLady */,
+				09DB774816727810003C028C /* UnitTests */,
+				09DB769816725DE6003C028C /* Frameworks */,
+				09DB769616725DE6003C028C /* Products */,
+				E33E9DB324FA484085328A06 /* Pods.xcconfig */,
+				DB387EFDC4D149C4A2FFB71E /* Pods-UnitTests.xcconfig */,
+			);
+			indentWidth = 4;
+			sourceTree = "<group>";
+			tabWidth = 4;
+			usesTabs = 0;
+		};
+		09DB769616725DE6003C028C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				09DB769516725DE6003C028C /* LunchLady.app */,
+				09DB774316727810003C028C /* UnitTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		09DB769816725DE6003C028C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				09DB769916725DE6003C028C /* UIKit.framework */,
+				09DB769B16725DE6003C028C /* Foundation.framework */,
+				09DB769D16725DE6003C028C /* CoreGraphics.framework */,
+				37933AC956C24F70B4C168C6 /* libPods.a */,
+				09DB774416727810003C028C /* SenTestingKit.framework */,
+				067B5BFACA3F431DB10EBE0D /* libPods-UnitTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		09DB769F16725DE6003C028C /* LunchLady */ = {
+			isa = PBXGroup;
+			children = (
+				09DB76A816725DE6003C028C /* LLAppDelegate.h */,
+				09DB76A916725DE6003C028C /* LLAppDelegate.m */,
+				09DB76B116725DE6003C028C /* MainStoryboard.storyboard */,
+				09DB76B416725DE6003C028C /* LLViewController.h */,
+				09DB76B516725DE6003C028C /* LLViewController.m */,
+				09DB76A016725DE6003C028C /* Supporting Files */,
+			);
+			path = LunchLady;
+			sourceTree = "<group>";
+		};
+		09DB76A016725DE6003C028C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				09DB76A116725DE6003C028C /* LunchLady-Info.plist */,
+				09DB76A216725DE6003C028C /* InfoPlist.strings */,
+				09DB76A516725DE6003C028C /* main.m */,
+				09DB76A716725DE6003C028C /* LunchLady-Prefix.pch */,
+				09DB76AB16725DE6003C028C /* Default.png */,
+				09DB76AD16725DE6003C028C /* Default@2x.png */,
+				09DB76AF16725DE6003C028C /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		09DB774816727810003C028C /* UnitTests */ = {
+			isa = PBXGroup;
+			children = (
+				09DB774E16727810003C028C /* UnitTests.h */,
+				09DB774F16727810003C028C /* UnitTests.m */,
+				09DB774916727810003C028C /* Supporting Files */,
+			);
+			path = UnitTests;
+			sourceTree = "<group>";
+		};
+		09DB774916727810003C028C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				09DB774A16727810003C028C /* UnitTests-Info.plist */,
+				096446E4167281EB00F42667 /* InfoPlist.strings */,
+				09DB775116727810003C028C /* UnitTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		09DB769416725DE6003C028C /* LunchLady */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09DB76B916725DE6003C028C /* Build configuration list for PBXNativeTarget "LunchLady" */;
+			buildPhases = (
+				09DB769116725DE6003C028C /* Sources */,
+				09DB769216725DE6003C028C /* Frameworks */,
+				09DB769316725DE6003C028C /* Resources */,
+				43300574BDD14D169355CDF3 /* Warn for TODO and FIXME comments */,
+				CAA8554818E442DABEA89F32 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LunchLady;
+			productName = LunchLady;
+			productReference = 09DB769516725DE6003C028C /* LunchLady.app */;
+			productType = "com.apple.product-type.application";
+		};
+		09DB774216727810003C028C /* UnitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09DB775416727810003C028C /* Build configuration list for PBXNativeTarget "UnitTests" */;
+			buildPhases = (
+				09DB773E16727810003C028C /* Sources */,
+				09DB773F16727810003C028C /* Frameworks */,
+				09DB774016727810003C028C /* Resources */,
+				09DB774116727810003C028C /* ShellScript */,
+				FB27DC32B66642E08555A261 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				09DB77571672781D003C028C /* PBXTargetDependency */,
+			);
+			name = UnitTests;
+			productName = UnitTests;
+			productReference = 09DB774316727810003C028C /* UnitTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		09DB768C16725DE6003C028C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LL;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Diana Zmuda";
+			};
+			buildConfigurationList = 09DB768F16725DE6003C028C /* Build configuration list for PBXProject "LunchLady" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 09DB768A16725DE6003C028C;
+			productRefGroup = 09DB769616725DE6003C028C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				09DB769416725DE6003C028C /* LunchLady */,
+				09DB774216727810003C028C /* UnitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		09DB769316725DE6003C028C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09DB76A416725DE6003C028C /* InfoPlist.strings in Resources */,
+				09DB76AC16725DE6003C028C /* Default.png in Resources */,
+				09DB76AE16725DE6003C028C /* Default@2x.png in Resources */,
+				09DB76B016725DE6003C028C /* Default-568h@2x.png in Resources */,
+				09DB76B316725DE6003C028C /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09DB774016727810003C028C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				096446E5167281EB00F42667 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		09DB774116727810003C028C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+		43300574BDD14D169355CDF3 /* Warn for TODO and FIXME comments */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Warn for TODO and FIXME comments";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "KEYWORDS=\"TODO:|FIXME:|\\?\\?\\?:|\\!\\!\\!:\"\nfind \"${SRCROOT}\" -ipath \"${SRCROOT}/vendor\" -prune -o \\( -name \"*.h\" -or -name \"*.m\" \\) -print0 | xargs -0 egrep --with-filename --line-number --only-matching \"($KEYWORDS).*\\$\" | perl -p -e \"s/($KEYWORDS)/ warning: \\$1/\"\n";
+		};
+		CAA8554818E442DABEA89F32 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
+		FB27DC32B66642E08555A261 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-UnitTests-resources.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09DB769116725DE6003C028C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09DB76A616725DE6003C028C /* main.m in Sources */,
+				09DB76AA16725DE6003C028C /* LLAppDelegate.m in Sources */,
+				09DB76B616725DE6003C028C /* LLViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09DB773E16727810003C028C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09DB775016727810003C028C /* UnitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		09DB77571672781D003C028C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 09DB769416725DE6003C028C /* LunchLady */;
+			targetProxy = 09DB77561672781D003C028C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		09DB76A216725DE6003C028C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09DB76A316725DE6003C028C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		09DB76B116725DE6003C028C /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09DB76B216725DE6003C028C /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		09DB76B716725DE6003C028C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		09DB76B816725DE6003C028C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		09DB76BA16725DE6003C028C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E33E9DB324FA484085328A06 /* Pods.xcconfig */;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LunchLady/LunchLady-Prefix.pch";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INFOPLIST_FILE = "LunchLady/LunchLady-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WARNING_CFLAGS = "-Wall";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		09DB76BB16725DE6003C028C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E33E9DB324FA484085328A06 /* Pods.xcconfig */;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LunchLady/LunchLady-Prefix.pch";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				INFOPLIST_FILE = "LunchLady/LunchLady-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WARNING_CFLAGS = "-Wall";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		09DB775216727810003C028C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB387EFDC4D149C4A2FFB71E /* Pods-UnitTests.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LunchLady.app/LunchLady";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UnitTests/UnitTests-Prefix.pch";
+				INFOPLIST_FILE = "UnitTests/UnitTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		09DB775316727810003C028C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB387EFDC4D149C4A2FFB71E /* Pods-UnitTests.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LunchLady.app/LunchLady";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UnitTests/UnitTests-Prefix.pch";
+				INFOPLIST_FILE = "UnitTests/UnitTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09DB768F16725DE6003C028C /* Build configuration list for PBXProject "LunchLady" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09DB76B716725DE6003C028C /* Debug */,
+				09DB76B816725DE6003C028C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09DB76B916725DE6003C028C /* Build configuration list for PBXNativeTarget "LunchLady" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09DB76BA16725DE6003C028C /* Debug */,
+				09DB76BB16725DE6003C028C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09DB775416727810003C028C /* Build configuration list for PBXNativeTarget "UnitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09DB775216727810003C028C /* Debug */,
+				09DB775316727810003C028C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 09DB768C16725DE6003C028C /* Project object */;
+}
