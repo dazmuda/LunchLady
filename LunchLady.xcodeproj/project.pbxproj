@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		096446E5167281EB00F42667 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 096446E4167281EB00F42667 /* InfoPlist.strings */; };
+		0964474116728C5D00F42667 /* LunchLady.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0964473F16728C5D00F42667 /* LunchLady.xcdatamodeld */; };
+		0964474816728CB300F42667 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0964474716728CB300F42667 /* CoreData.framework */; };
 		09DB769A16725DE6003C028C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09DB769916725DE6003C028C /* UIKit.framework */; };
 		09DB769C16725DE6003C028C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09DB769B16725DE6003C028C /* Foundation.framework */; };
 		09DB769E16725DE6003C028C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09DB769D16725DE6003C028C /* CoreGraphics.framework */; };
@@ -40,6 +42,8 @@
 /* Begin PBXFileReference section */
 		067B5BFACA3F431DB10EBE0D /* libPods-UnitTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UnitTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		096446E4167281EB00F42667 /* InfoPlist.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = InfoPlist.strings; sourceTree = "<group>"; };
+		0964474016728C5D00F42667 /* LunchLady.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LunchLady.xcdatamodel; sourceTree = "<group>"; };
+		0964474716728CB300F42667 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		09DB769516725DE6003C028C /* LunchLady.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LunchLady.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09DB769916725DE6003C028C /* UIKit.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		09DB769B16725DE6003C028C /* Foundation.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -72,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0964474816728CB300F42667 /* CoreData.framework in Frameworks */,
 				09DB769A16725DE6003C028C /* UIKit.framework in Frameworks */,
 				09DB769C16725DE6003C028C /* Foundation.framework in Frameworks */,
 				09DB769E16725DE6003C028C /* CoreGraphics.framework in Frameworks */,
@@ -120,6 +125,7 @@
 		09DB769816725DE6003C028C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0964474716728CB300F42667 /* CoreData.framework */,
 				09DB769916725DE6003C028C /* UIKit.framework */,
 				09DB769B16725DE6003C028C /* Foundation.framework */,
 				09DB769D16725DE6003C028C /* CoreGraphics.framework */,
@@ -136,6 +142,7 @@
 				09DB76A816725DE6003C028C /* LLAppDelegate.h */,
 				09DB76A916725DE6003C028C /* LLAppDelegate.m */,
 				09DB76B116725DE6003C028C /* MainStoryboard.storyboard */,
+				0964473F16728C5D00F42667 /* LunchLady.xcdatamodeld */,
 				09DB76B416725DE6003C028C /* LLViewController.h */,
 				09DB76B516725DE6003C028C /* LLViewController.m */,
 				09DB76A016725DE6003C028C /* Supporting Files */,
@@ -336,6 +343,7 @@
 				09DB76A616725DE6003C028C /* main.m in Sources */,
 				09DB76AA16725DE6003C028C /* LLAppDelegate.m in Sources */,
 				09DB76B616725DE6003C028C /* LLViewController.m in Sources */,
+				0964474116728C5D00F42667 /* LunchLady.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -523,6 +531,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		0964473F16728C5D00F42667 /* LunchLady.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				0964474016728C5D00F42667 /* LunchLady.xcdatamodel */,
+			);
+			currentVersion = 0964474016728C5D00F42667 /* LunchLady.xcdatamodel */;
+			path = LunchLady.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 09DB768C16725DE6003C028C /* Project object */;
 }
