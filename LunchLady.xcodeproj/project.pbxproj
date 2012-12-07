@@ -17,6 +17,7 @@
 				<string>09DB769F16725DE6003C028C</string>
 				<string>09DB769816725DE6003C028C</string>
 				<string>09DB769616725DE6003C028C</string>
+				<string>E33E9DB324FA484085328A06</string>
 			</array>
 			<key>indentWidth</key>
 			<string>4</string>
@@ -105,6 +106,7 @@
 				<string>09DB769A16725DE6003C028C</string>
 				<string>09DB769C16725DE6003C028C</string>
 				<string>09DB769E16725DE6003C028C</string>
+				<string>D30778C37D9A4FACAD5CC2CD</string>
 			</array>
 			<key>isa</key>
 			<string>PBXFrameworksBuildPhase</string>
@@ -138,6 +140,7 @@
 				<string>09DB769216725DE6003C028C</string>
 				<string>09DB769316725DE6003C028C</string>
 				<string>43300574BDD14D169355CDF3</string>
+				<string>CAA8554818E442DABEA89F32</string>
 			</array>
 			<key>buildRules</key>
 			<array/>
@@ -189,6 +192,7 @@
 				<string>09DB769916725DE6003C028C</string>
 				<string>09DB769B16725DE6003C028C</string>
 				<string>09DB769D16725DE6003C028C</string>
+				<string>37933AC956C24F70B4C168C6</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
@@ -199,6 +203,8 @@
 		</dict>
 		<key>09DB769916725DE6003C028C</key>
 		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
@@ -219,6 +225,8 @@
 		</dict>
 		<key>09DB769B16725DE6003C028C</key>
 		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
@@ -239,6 +247,8 @@
 		</dict>
 		<key>09DB769D16725DE6003C028C</key>
 		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
@@ -614,11 +624,15 @@
 			</array>
 			<key>defaultConfigurationIsVisible</key>
 			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
 			<key>isa</key>
 			<string>XCConfigurationList</string>
 		</dict>
 		<key>09DB76BA16725DE6003C028C</key>
 		<dict>
+			<key>baseConfigurationReference</key>
+			<string>E33E9DB324FA484085328A06</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
@@ -641,6 +655,8 @@
 		</dict>
 		<key>09DB76BB16725DE6003C028C</key>
 		<dict>
+			<key>baseConfigurationReference</key>
+			<string>E33E9DB324FA484085328A06</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
@@ -662,6 +678,21 @@
 			<string>XCBuildConfiguration</string>
 			<key>name</key>
 			<string>Release</string>
+		</dict>
+		<key>37933AC956C24F70B4C168C6</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>libPods.a</string>
+			<key>path</key>
+			<string>libPods.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
 		<key>43300574BDD14D169355CDF3</key>
 		<dict>
@@ -685,6 +716,50 @@
 			<string>KEYWORDS="TODO:|FIXME:|\?\?\?:|\!\!\!:"
 find "${SRCROOT}" -ipath "${SRCROOT}/vendor" -prune -o \( -name "*.h" -or -name "*.m" \) -print0 | xargs -0 egrep --with-filename --line-number --only-matching "($KEYWORDS).*\$" | perl -p -e "s/($KEYWORDS)/ warning: \$1/"
 </string>
+		</dict>
+		<key>CAA8554818E442DABEA89F32</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>Copy Pods Resources</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>"${SRCROOT}/Pods/Pods-resources.sh"
+</string>
+		</dict>
+		<key>D30778C37D9A4FACAD5CC2CD</key>
+		<dict>
+			<key>fileRef</key>
+			<string>37933AC956C24F70B4C168C6</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>E33E9DB324FA484085328A06</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods.xcconfig</string>
+			<key>path</key>
+			<string>Pods/Pods.xcconfig</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
 		</dict>
 	</dict>
 	<key>rootObject</key>
