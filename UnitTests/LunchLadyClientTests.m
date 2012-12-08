@@ -1,4 +1,3 @@
-#import "Kiwi.h"
 #import "LLLunchLadyClient.h"
 
 SPEC_BEGIN(LunchLadyClientTests)
