@@ -1,5 +1,5 @@
 //
-//  LLViewController.h
+//  LLCurrentVisitViewController.h
 //  LunchLady
 //
 //  Created by Diana Zmuda on 12/7/12.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface LLViewController : UIViewController
+@interface LLCurrentVisitViewController : UIViewController
 
 @end
