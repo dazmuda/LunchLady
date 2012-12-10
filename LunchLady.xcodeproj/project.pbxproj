@@ -27,6 +27,13 @@
 		09DB774516727810003C028C /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09DB774416727810003C028C /* SenTestingKit.framework */; };
 		09DB774616727810003C028C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09DB769916725DE6003C028C /* UIKit.framework */; };
 		09DB774716727810003C028C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09DB769B16725DE6003C028C /* Foundation.framework */; };
+		4D1BBE8716733C6B007D9C88 /* CoreDataManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D1BBE8616733C6B007D9C88 /* CoreDataManagerTests.m */; };
+		4D1BBE8A16733D3C007D9C88 /* LLCoreDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D1BBE8916733D3C007D9C88 /* LLCoreDataManager.m */; };
+		4D1BBE8E16734911007D9C88 /* FileManagerCategoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D1BBE8D16734911007D9C88 /* FileManagerCategoryTests.m */; };
+		4D1BBE91167349E6007D9C88 /* NSFileManager+DocumentsDirecotry.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D1BBE90167349E6007D9C88 /* NSFileManager+DocumentsDirecotry.m */; };
+		4D1BBE92167349E6007D9C88 /* NSFileManager+DocumentsDirecotry.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D1BBE90167349E6007D9C88 /* NSFileManager+DocumentsDirecotry.m */; };
+		4D1BBE9816734AE8007D9C88 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D1BBE9716734AE8007D9C88 /* SystemConfiguration.framework */; };
+		4D1BBE9A16734AEE007D9C88 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D1BBE9916734AEE007D9C88 /* MobileCoreServices.framework */; };
 		A92A8B8523B14B86922E8A59 /* libPods-UnitTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 067B5BFACA3F431DB10EBE0D /* libPods-UnitTests.a */; };
 		D30778C37D9A4FACAD5CC2CD /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 37933AC956C24F70B4C168C6 /* libPods.a */; };
 /* End PBXBuildFile section */
@@ -72,6 +79,14 @@
 		09DB774A16727810003C028C /* UnitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UnitTests-Info.plist"; sourceTree = "<group>"; };
 		09DB775116727810003C028C /* UnitTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UnitTests-Prefix.pch"; sourceTree = "<group>"; };
 		37933AC956C24F70B4C168C6 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D1BBE8616733C6B007D9C88 /* CoreDataManagerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataManagerTests.m; sourceTree = "<group>"; };
+		4D1BBE8816733D3C007D9C88 /* LLCoreDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLCoreDataManager.h; sourceTree = "<group>"; };
+		4D1BBE8916733D3C007D9C88 /* LLCoreDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLCoreDataManager.m; sourceTree = "<group>"; };
+		4D1BBE8D16734911007D9C88 /* FileManagerCategoryTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileManagerCategoryTests.m; sourceTree = "<group>"; };
+		4D1BBE8F167349E6007D9C88 /* NSFileManager+DocumentsDirecotry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+DocumentsDirecotry.h"; sourceTree = "<group>"; };
+		4D1BBE90167349E6007D9C88 /* NSFileManager+DocumentsDirecotry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+DocumentsDirecotry.m"; sourceTree = "<group>"; };
+		4D1BBE9716734AE8007D9C88 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		4D1BBE9916734AEE007D9C88 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		DB387EFDC4D149C4A2FFB71E /* Pods-UnitTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnitTests.xcconfig"; path = "Pods/Pods-UnitTests.xcconfig"; sourceTree = SOURCE_ROOT; };
 		E33E9DB324FA484085328A06 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
@@ -81,6 +96,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D1BBE9A16734AEE007D9C88 /* MobileCoreServices.framework in Frameworks */,
+				4D1BBE9816734AE8007D9C88 /* SystemConfiguration.framework in Frameworks */,
 				0964474816728CB300F42667 /* CoreData.framework in Frameworks */,
 				09DB769A16725DE6003C028C /* UIKit.framework in Frameworks */,
 				09DB769C16725DE6003C028C /* Foundation.framework in Frameworks */,
@@ -130,6 +147,8 @@
 		09DB769816725DE6003C028C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4D1BBE9916734AEE007D9C88 /* MobileCoreServices.framework */,
+				4D1BBE9716734AE8007D9C88 /* SystemConfiguration.framework */,
 				0964474716728CB300F42667 /* CoreData.framework */,
 				09DB769916725DE6003C028C /* UIKit.framework */,
 				09DB769B16725DE6003C028C /* Foundation.framework */,
@@ -156,6 +175,10 @@
 				096447551672ACE400F42667 /* LLCurrentVisitViewController.m */,
 				0964476D1672BD4D00F42667 /* LLLunchLadyClient.h */,
 				0964476E1672BD4D00F42667 /* LLLunchLadyClient.m */,
+				4D1BBE9616734AB2007D9C88 /* Network */,
+				4D1BBE9516734A96007D9C88 /* Model Controllers */,
+				4D1BBE9416734A8B007D9C88 /* View Controllers */,
+				4D1BBE9316734A75007D9C88 /* Categories */,
 				09DB76A016725DE6003C028C /* Supporting Files */,
 			);
 			path = LunchLady;
@@ -180,6 +203,8 @@
 			children = (
 				09DB774916727810003C028C /* Supporting Files */,
 				0964476B1672B72E00F42667 /* LunchLadyClientTests.m */,
+				4D1BBE8616733C6B007D9C88 /* CoreDataManagerTests.m */,
+				4D1BBE8D16734911007D9C88 /* FileManagerCategoryTests.m */,
 			);
 			path = UnitTests;
 			sourceTree = "<group>";
@@ -194,6 +219,44 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		4D1BBE9316734A75007D9C88 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				4D1BBE8F167349E6007D9C88 /* NSFileManager+DocumentsDirecotry.h */,
+				4D1BBE90167349E6007D9C88 /* NSFileManager+DocumentsDirecotry.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		4D1BBE9416734A8B007D9C88 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				096447511672AB0100F42667 /* LLVisitedViewController.h */,
+				096447521672AB0100F42667 /* LLVisitedViewController.m */,
+				096447541672ACE400F42667 /* LLCurrentVisitViewController.h */,
+				096447551672ACE400F42667 /* LLCurrentVisitViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		4D1BBE9516734A96007D9C88 /* Model Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4D1BBE8816733D3C007D9C88 /* LLCoreDataManager.h */,
+				4D1BBE8916733D3C007D9C88 /* LLCoreDataManager.m */,
+			);
+			name = "Model Controllers";
+			sourceTree = "<group>";
+		};
+		4D1BBE9616734AB2007D9C88 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				0964476D1672BD4D00F42667 /* LLLunchLadyClient.h */,
+				0964476E1672BD4D00F42667 /* LLLunchLadyClient.m */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -204,7 +267,6 @@
 				09DB769116725DE6003C028C /* Sources */,
 				09DB769216725DE6003C028C /* Frameworks */,
 				09DB769316725DE6003C028C /* Resources */,
-				43300574BDD14D169355CDF3 /* Warn for TODO and FIXME comments */,
 				CAA8554818E442DABEA89F32 /* Copy Pods Resources */,
 			);
 			buildRules = (
@@ -301,20 +363,6 @@
 			shellPath = /bin/sh;
 			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
 		};
-		43300574BDD14D169355CDF3 /* Warn for TODO and FIXME comments */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Warn for TODO and FIXME comments";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "KEYWORDS=\"TODO:|FIXME:|\\?\\?\\?:|\\!\\!\\!:\"\nfind \"${SRCROOT}\" -ipath \"${SRCROOT}/vendor\" -prune -o \\( -name \"*.h\" -or -name \"*.m\" \\) -print0 | xargs -0 egrep --with-filename --line-number --only-matching \"($KEYWORDS).*\\$\" | perl -p -e \"s/($KEYWORDS)/ warning: \\$1/\"\n";
-		};
 		CAA8554818E442DABEA89F32 /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -352,11 +400,12 @@
 			files = (
 				09DB76A616725DE6003C028C /* main.m in Sources */,
 				09DB76AA16725DE6003C028C /* LLAppDelegate.m in Sources */,
-				09DB76B616725DE6003C028C /* LLViewController.m in Sources */,
 				0964474116728C5D00F42667 /* LunchLady.xcdatamodeld in Sources */,
 				096447531672AB0100F42667 /* LLVisitedViewController.m in Sources */,
 				096447561672ACE400F42667 /* LLCurrentVisitViewController.m in Sources */,
 				0964476F1672BD4D00F42667 /* LLLunchLadyClient.m in Sources */,
+				4D1BBE8A16733D3C007D9C88 /* LLCoreDataManager.m in Sources */,
+				4D1BBE91167349E6007D9C88 /* NSFileManager+DocumentsDirecotry.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -365,6 +414,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0964476C1672B72E00F42667 /* LunchLadyClientTests.m in Sources */,
+				4D1BBE8716733C6B007D9C88 /* CoreDataManagerTests.m in Sources */,
+				4D1BBE8E16734911007D9C88 /* FileManagerCategoryTests.m in Sources */,
+				4D1BBE92167349E6007D9C88 /* NSFileManager+DocumentsDirecotry.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
