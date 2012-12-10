@@ -12,6 +12,8 @@
 		0964474816728CB300F42667 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0964474716728CB300F42667 /* CoreData.framework */; };
 		096447531672AB0100F42667 /* LLVisitedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 096447521672AB0100F42667 /* LLVisitedViewController.m */; };
 		096447561672ACE400F42667 /* LLCurrentVisitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 096447551672ACE400F42667 /* LLCurrentVisitViewController.m */; };
+		0964476C1672B72E00F42667 /* LunchLadyClientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0964476B1672B72E00F42667 /* LunchLadyClientTests.m */; };
+		0964476F1672BD4D00F42667 /* LLLunchLadyClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 0964476E1672BD4D00F42667 /* LLLunchLadyClient.m */; };
 		09DB769A16725DE6003C028C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09DB769916725DE6003C028C /* UIKit.framework */; };
 		09DB769C16725DE6003C028C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09DB769B16725DE6003C028C /* Foundation.framework */; };
 		09DB769E16725DE6003C028C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09DB769D16725DE6003C028C /* CoreGraphics.framework */; };
@@ -25,7 +27,6 @@
 		09DB774516727810003C028C /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09DB774416727810003C028C /* SenTestingKit.framework */; };
 		09DB774616727810003C028C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09DB769916725DE6003C028C /* UIKit.framework */; };
 		09DB774716727810003C028C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09DB769B16725DE6003C028C /* Foundation.framework */; };
-		09DB775016727810003C028C /* UnitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 09DB774F16727810003C028C /* UnitTests.m */; };
 		A92A8B8523B14B86922E8A59 /* libPods-UnitTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 067B5BFACA3F431DB10EBE0D /* libPods-UnitTests.a */; };
 		D30778C37D9A4FACAD5CC2CD /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 37933AC956C24F70B4C168C6 /* libPods.a */; };
 /* End PBXBuildFile section */
@@ -49,6 +50,9 @@
 		096447521672AB0100F42667 /* LLVisitedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLVisitedViewController.m; sourceTree = "<group>"; };
 		096447541672ACE400F42667 /* LLCurrentVisitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLCurrentVisitViewController.h; sourceTree = "<group>"; };
 		096447551672ACE400F42667 /* LLCurrentVisitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLCurrentVisitViewController.m; sourceTree = "<group>"; };
+		0964476B1672B72E00F42667 /* LunchLadyClientTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LunchLadyClientTests.m; sourceTree = "<group>"; };
+		0964476D1672BD4D00F42667 /* LLLunchLadyClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLLunchLadyClient.h; sourceTree = "<group>"; };
+		0964476E1672BD4D00F42667 /* LLLunchLadyClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLLunchLadyClient.m; sourceTree = "<group>"; };
 		09DB769516725DE6003C028C /* LunchLady.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LunchLady.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09DB769916725DE6003C028C /* UIKit.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		09DB769B16725DE6003C028C /* Foundation.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -66,8 +70,6 @@
 		09DB774316727810003C028C /* UnitTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		09DB774416727810003C028C /* SenTestingKit.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		09DB774A16727810003C028C /* UnitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UnitTests-Info.plist"; sourceTree = "<group>"; };
-		09DB774E16727810003C028C /* UnitTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UnitTests.h; sourceTree = "<group>"; };
-		09DB774F16727810003C028C /* UnitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UnitTests.m; sourceTree = "<group>"; };
 		09DB775116727810003C028C /* UnitTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UnitTests-Prefix.pch"; sourceTree = "<group>"; };
 		37933AC956C24F70B4C168C6 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB387EFDC4D149C4A2FFB71E /* Pods-UnitTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnitTests.xcconfig"; path = "Pods/Pods-UnitTests.xcconfig"; sourceTree = SOURCE_ROOT; };
@@ -152,6 +154,8 @@
 				096447521672AB0100F42667 /* LLVisitedViewController.m */,
 				096447541672ACE400F42667 /* LLCurrentVisitViewController.h */,
 				096447551672ACE400F42667 /* LLCurrentVisitViewController.m */,
+				0964476D1672BD4D00F42667 /* LLLunchLadyClient.h */,
+				0964476E1672BD4D00F42667 /* LLLunchLadyClient.m */,
 				09DB76A016725DE6003C028C /* Supporting Files */,
 			);
 			path = LunchLady;
@@ -174,9 +178,8 @@
 		09DB774816727810003C028C /* UnitTests */ = {
 			isa = PBXGroup;
 			children = (
-				09DB774E16727810003C028C /* UnitTests.h */,
-				09DB774F16727810003C028C /* UnitTests.m */,
 				09DB774916727810003C028C /* Supporting Files */,
+				0964476B1672B72E00F42667 /* LunchLadyClientTests.m */,
 			);
 			path = UnitTests;
 			sourceTree = "<group>";
@@ -353,6 +356,7 @@
 				0964474116728C5D00F42667 /* LunchLady.xcdatamodeld in Sources */,
 				096447531672AB0100F42667 /* LLVisitedViewController.m in Sources */,
 				096447561672ACE400F42667 /* LLCurrentVisitViewController.m in Sources */,
+				0964476F1672BD4D00F42667 /* LLLunchLadyClient.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,7 +364,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				09DB775016727810003C028C /* UnitTests.m in Sources */,
+				0964476C1672B72E00F42667 /* LunchLadyClientTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
