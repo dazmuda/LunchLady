@@ -81,16 +81,7 @@ static NSString *kFoursquareVersion = @"20121210";
     [URLString appendFormat:@"?oauth_token=%@", kFoursquareToken];
     [URLString appendFormat:@"&v=%@", kFoursquareVersion];
     
-    NSURL *URL = [NSURL URLWithString:URLString];
-    NSURLRequest *request = [NSURLRequest requestWithURL:URL];
-    AFJSONRequestOperation *operation = [AFJSONRequestOperation JSONRequestOperationWithRequest:request success:^(NSURLRequest *request, NSHTTPURLResponse *response, id JSON) {
-        block(JSON);
-    } failure:^(NSURLRequest *request, NSHTTPURLResponse *response, NSError *error, id JSON) {
-        NSLog(@"FoursquareClient failed to get place info with error: %@", error);
-        block(nil);
-    }];
-    
-    [self enqueueHTTPRequestOperation:operation];
+    [self submitRequestWithURL:URLString andBlock:block];
 }
 
 
@@ -103,14 +94,18 @@ static NSString *kFoursquareVersion = @"20121210";
     [URLString appendFormat:@"?ll=%@", [self currentLocationString]];
     [URLString appendFormat:@"&oauth_token=%@", kFoursquareToken];
     [URLString appendFormat:@"&v=%@", kFoursquareVersion];
-
     
+    [self submitRequestWithURL:URLString andBlock:block];
+}
+
+- (void)submitRequestWithURL:(NSMutableString *)URLString andBlock:(FoursquareClientBlock)block
+{
     NSURL *URL = [NSURL URLWithString:URLString];
     NSURLRequest *request = [NSURLRequest requestWithURL:URL];
     AFJSONRequestOperation *operation = [AFJSONRequestOperation JSONRequestOperationWithRequest:request success:^(NSURLRequest *request, NSHTTPURLResponse *response, id JSON) {
         block(JSON);
     } failure:^(NSURLRequest *request, NSHTTPURLResponse *response, NSError *error, id JSON) {
-        NSLog(@"FoursquareClient failed to get close places with error: %@", error);
+        NSLog(@"FoursquareClient failed request: %@ with error: %@", URLString, error);
         block(nil);
     }];
     
