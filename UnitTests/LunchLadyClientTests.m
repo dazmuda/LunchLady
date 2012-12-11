@@ -5,6 +5,8 @@ SPEC_BEGIN(LunchLadyClientTests)
 describe(@"Lunch Lady Client", ^{
     
     __block LLLunchLadyClient *client;
+    __block NSArray *visitedPlacesArray;
+    __block NSArray *submittedPlaceArray;
     
     beforeAll(^{
         client = [LLLunchLadyClient sharedClient];
@@ -15,13 +17,22 @@ describe(@"Lunch Lady Client", ^{
     });
     
     it(@"spits back response for a visited places request", ^{
-        __block NSArray *visitedPlacesArray = nil;
-        
+
         [client fetchVisitedPlacesWithBlock:^(NSArray *response) {
             visitedPlacesArray = response;
         }];
         
-        [[expectFutureValue(visitedPlacesArray) shouldEventuallyBeforeTimingOutAfter(30.0)] beNonNil];
+        [[expectFutureValue(visitedPlacesArray) shouldEventuallyBeforeTimingOutAfter(5.0)] beNonNil];
+    });
+    
+    it(@"lets you post a place to the rails app", ^{
+        
+        [client pushVisitedPlace:@"49ca7a59f964a520ae581fe3" withBlock:^(NSArray *response) {
+            submittedPlaceArray = response;
+        }];
+        
+        [[expectFutureValue(submittedPlaceArray) shouldEventuallyBeforeTimingOutAfter(5.0)] beNonNil];
+        
     });
     
 });
