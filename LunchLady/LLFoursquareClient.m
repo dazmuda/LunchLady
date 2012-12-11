@@ -8,6 +8,7 @@
 
 static NSString *kFoursquareToken = @"GWD2OZQABYJQP2FRBHDSWGK5BUULEZ2OFBOJH1H4NJH53Z5H";
 static NSString *kFoursquareURL = @"https://api.foursquare.com/v2/venues/";
+static NSString *kFoursquareVersion = @"20121210";
 
 #import "LLFoursquareClient.h"
 
@@ -46,13 +47,29 @@ static NSString *kFoursquareURL = @"https://api.foursquare.com/v2/venues/";
 - (void)fetchPlaceForID:(NSString *)ID withBlock:(FoursquareClientBlock)block
 {
     NSDictionary *parameters = @{   @"oauth_token" : kFoursquareToken,
-                                    @"v" : @"20121210"  };
+                                    @"v" : kFoursquareVersion  };
     
     [self getPath:ID parameters:parameters success:^(AFHTTPRequestOperation *operation, id responseObject) {
-        //NSLog(@"FoursquareClient got place for ID: %@", responseObject);
         block(responseObject);
     } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
         NSLog(@"FoursquareClient failed to get place info with error: %@", error);
+        block(nil);
+    }];
+}
+
+- (void)fetchPlacesAroundCurrentLocationWithBlock:(FoursquareClientBlock)block
+{
+    [self startUpdatingLocation];
+    
+    NSString *path = @"explore";
+    NSDictionary *parameters = @{   @"ll" : [self currentLocationString],
+                                    @"oauth_token" : kFoursquareToken,
+                                    @"v" : kFoursquareVersion };
+    
+    [self getPath:path parameters:parameters success:^(AFHTTPRequestOperation *operation, id responseObject) {
+        block(responseObject);
+    } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
+        NSLog(@"FoursquareClient failed to get close places with error: %@", error);
         block(nil);
     }];
 }
@@ -61,15 +78,12 @@ static NSString *kFoursquareURL = @"https://api.foursquare.com/v2/venues/";
 {
     NSMutableString *URLString = [kFoursquareURL mutableCopy];
     [URLString appendString:ID];
-    [URLString appendString:@"?oauth_token="];
-    [URLString appendString:kFoursquareToken];
-    [URLString appendString:@"&v="];
-    [URLString appendString:@"20121210"];
+    [URLString appendFormat:@"?oauth_token=%@", kFoursquareToken];
+    [URLString appendFormat:@"&v=%@", kFoursquareVersion];
     
     NSURL *URL = [NSURL URLWithString:URLString];
     NSURLRequest *request = [NSURLRequest requestWithURL:URL];
     AFJSONRequestOperation *operation = [AFJSONRequestOperation JSONRequestOperationWithRequest:request success:^(NSURLRequest *request, NSHTTPURLResponse *response, id JSON) {
-        //NSLog(@"FoursquareClient got place for ID: %@", JSON);
         block(JSON);
     } failure:^(NSURLRequest *request, NSHTTPURLResponse *response, NSError *error, id JSON) {
         NSLog(@"FoursquareClient failed to get place info with error: %@", error);
@@ -79,26 +93,6 @@ static NSString *kFoursquareURL = @"https://api.foursquare.com/v2/venues/";
     [self enqueueHTTPRequestOperation:operation];
 }
 
-- (void)fetchPlacesAroundCurrentLocationWithBlock:(FoursquareClientBlock)block
-{
-    [self startUpdatingLocation];
-    
-    NSString *path = @"explore";
-    NSDictionary *parameters = @{   @"ll" : [self currentLocationString],
-                                    @"radius" : @"100",
-                                    @"limit" : @"5",
-                                    @"section" : @"food",
-                                    @"oauth_token" : kFoursquareToken,
-                                    @"v" : @"20121210"  };
-    
-    [self getPath:path parameters:parameters success:^(AFHTTPRequestOperation *operation, id responseObject) {
-        //NSLog(@"FoursquareClient got close places: %@", responseObject);
-        block(responseObject);
-    } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
-        NSLog(@"FoursquareClient failed to get close places with error: %@", error);
-        block(nil);
-    }];
-}
 
 - (void)grabPlacesAroundCurrentLocationWithBlock:(FoursquareClientBlock)block
 {
@@ -106,18 +100,14 @@ static NSString *kFoursquareURL = @"https://api.foursquare.com/v2/venues/";
     
     NSMutableString *URLString = [kFoursquareURL mutableCopy];
     [URLString appendString:@"/explore"];
-    [URLString appendString:@"?ll="];
-    [URLString appendString:[self currentLocationString]];
-    [URLString appendString:@"&oauth_token="];
-    [URLString appendString:kFoursquareToken];
-    [URLString appendString:@"&v="];
-    [URLString appendString:@"20121210"];
+    [URLString appendFormat:@"?ll=%@", [self currentLocationString]];
+    [URLString appendFormat:@"&oauth_token=%@", kFoursquareToken];
+    [URLString appendFormat:@"&v=%@", kFoursquareVersion];
 
     
     NSURL *URL = [NSURL URLWithString:URLString];
     NSURLRequest *request = [NSURLRequest requestWithURL:URL];
     AFJSONRequestOperation *operation = [AFJSONRequestOperation JSONRequestOperationWithRequest:request success:^(NSURLRequest *request, NSHTTPURLResponse *response, id JSON) {
-        //NSLog(@"FoursquareClient got close places: %@", JSON);
         block(JSON);
     } failure:^(NSURLRequest *request, NSHTTPURLResponse *response, NSError *error, id JSON) {
         NSLog(@"FoursquareClient failed to get close places with error: %@", error);

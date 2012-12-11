@@ -11,9 +11,11 @@ typedef void(^FoursquareClientBlock)(NSDictionary *response);
 @interface LLFoursquareClient : AFHTTPClient
 
 + (LLFoursquareClient *)sharedClient;
+
 - (void)fetchPlaceForID:(NSString *)ID withBlock:(FoursquareClientBlock)block;
-- (void)grabPlaceForID:(NSString *)ID withBlock:(FoursquareClientBlock)block;
 - (void)fetchPlacesAroundCurrentLocationWithBlock:(FoursquareClientBlock)block;
+
+- (void)grabPlaceForID:(NSString *)ID withBlock:(FoursquareClientBlock)block;
 - (void)grabPlacesAroundCurrentLocationWithBlock:(FoursquareClientBlock)block;
 
 @end
