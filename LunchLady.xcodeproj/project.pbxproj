@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		09071EBF16766CC90019E892 /* FoursquareClientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 09071EBE16766CC90019E892 /* FoursquareClientTests.m */; };
+		09071EC316766EF50019E892 /* LLFoursquareClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 09071EC216766EF50019E892 /* LLFoursquareClient.m */; };
+		09071ECD167697FB0019E892 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09071ECC167697FB0019E892 /* CoreLocation.framework */; };
 		096446E5167281EB00F42667 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 096446E4167281EB00F42667 /* InfoPlist.strings */; };
 		0964474116728C5D00F42667 /* LunchLady.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0964473F16728C5D00F42667 /* LunchLady.xcdatamodeld */; };
 		0964474816728CB300F42667 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0964474716728CB300F42667 /* CoreData.framework */; };
@@ -50,6 +53,10 @@
 
 /* Begin PBXFileReference section */
 		067B5BFACA3F431DB10EBE0D /* libPods-UnitTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UnitTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		09071EBE16766CC90019E892 /* FoursquareClientTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoursquareClientTests.m; sourceTree = "<group>"; };
+		09071EC116766EF50019E892 /* LLFoursquareClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLFoursquareClient.h; sourceTree = "<group>"; };
+		09071EC216766EF50019E892 /* LLFoursquareClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLFoursquareClient.m; sourceTree = "<group>"; };
+		09071ECC167697FB0019E892 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		096446E4167281EB00F42667 /* InfoPlist.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = InfoPlist.strings; sourceTree = "<group>"; };
 		0964474016728C5D00F42667 /* LunchLady.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LunchLady.xcdatamodel; sourceTree = "<group>"; };
 		0964474716728CB300F42667 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
@@ -96,6 +103,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09071ECD167697FB0019E892 /* CoreLocation.framework in Frameworks */,
 				4D1BBE9A16734AEE007D9C88 /* MobileCoreServices.framework in Frameworks */,
 				4D1BBE9816734AE8007D9C88 /* SystemConfiguration.framework in Frameworks */,
 				0964474816728CB300F42667 /* CoreData.framework in Frameworks */,
@@ -147,6 +155,7 @@
 		09DB769816725DE6003C028C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				09071ECC167697FB0019E892 /* CoreLocation.framework */,
 				4D1BBE9916734AEE007D9C88 /* MobileCoreServices.framework */,
 				4D1BBE9716734AE8007D9C88 /* SystemConfiguration.framework */,
 				0964474716728CB300F42667 /* CoreData.framework */,
@@ -167,14 +176,14 @@
 				09DB76A916725DE6003C028C /* LLAppDelegate.m */,
 				09DB76B116725DE6003C028C /* MainStoryboard.storyboard */,
 				0964473F16728C5D00F42667 /* LunchLady.xcdatamodeld */,
-				09DB76B416725DE6003C028C /* LLViewController.h */,
-				09DB76B516725DE6003C028C /* LLViewController.m */,
 				096447511672AB0100F42667 /* LLVisitedViewController.h */,
 				096447521672AB0100F42667 /* LLVisitedViewController.m */,
 				096447541672ACE400F42667 /* LLCurrentVisitViewController.h */,
 				096447551672ACE400F42667 /* LLCurrentVisitViewController.m */,
 				0964476D1672BD4D00F42667 /* LLLunchLadyClient.h */,
 				0964476E1672BD4D00F42667 /* LLLunchLadyClient.m */,
+				09071EC116766EF50019E892 /* LLFoursquareClient.h */,
+				09071EC216766EF50019E892 /* LLFoursquareClient.m */,
 				4D1BBE9616734AB2007D9C88 /* Network */,
 				4D1BBE9516734A96007D9C88 /* Model Controllers */,
 				4D1BBE9416734A8B007D9C88 /* View Controllers */,
@@ -205,6 +214,7 @@
 				0964476B1672B72E00F42667 /* LunchLadyClientTests.m */,
 				4D1BBE8616733C6B007D9C88 /* CoreDataManagerTests.m */,
 				4D1BBE8D16734911007D9C88 /* FileManagerCategoryTests.m */,
+				09071EBE16766CC90019E892 /* FoursquareClientTests.m */,
 			);
 			path = UnitTests;
 			sourceTree = "<group>";
@@ -406,6 +416,7 @@
 				0964476F1672BD4D00F42667 /* LLLunchLadyClient.m in Sources */,
 				4D1BBE8A16733D3C007D9C88 /* LLCoreDataManager.m in Sources */,
 				4D1BBE91167349E6007D9C88 /* NSFileManager+DocumentsDirecotry.m in Sources */,
+				09071EC316766EF50019E892 /* LLFoursquareClient.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,6 +428,7 @@
 				4D1BBE8716733C6B007D9C88 /* CoreDataManagerTests.m in Sources */,
 				4D1BBE8E16734911007D9C88 /* FileManagerCategoryTests.m in Sources */,
 				4D1BBE92167349E6007D9C88 /* NSFileManager+DocumentsDirecotry.m in Sources */,
+				09071EBF16766CC90019E892 /* FoursquareClientTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

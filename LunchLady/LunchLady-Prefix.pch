@@ -16,4 +16,5 @@
     #import <SystemConfiguration/SystemConfiguration.h>
     #import "AFNetworking.h"
     #import "NSFileManager+DocumentsDirecotry.h"
+    #import <CoreLocation/CoreLocation.h>
 #endif
