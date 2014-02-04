@@ -12,5 +12,7 @@ typedef void (^LunchLadyClientBlock)(NSArray *response);
 
 + (LLLunchLadyClient *)sharedClient;
 - (void)fetchVisitedPlacesWithBlock:(LunchLadyClientBlock)block;
+- (void)submitVisitedPlace:(NSString *)ID withBlock:(LunchLadyClientBlock)block;
+- (void)pushVisitedPlace:(NSString *)ID withBlock:(LunchLadyClientBlock)block;
 
 @end

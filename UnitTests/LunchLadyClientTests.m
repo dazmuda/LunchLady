@@ -5,6 +5,9 @@ SPEC_BEGIN(LunchLadyClientTests)
 describe(@"Lunch Lady Client", ^{
     
     __block LLLunchLadyClient *client;
+    __block NSArray *visitedPlacesArray;
+    __block NSArray *someResponse;
+    __block NSArray *someOtherResponse;
     
     beforeAll(^{
         client = [LLLunchLadyClient sharedClient];
@@ -15,13 +18,32 @@ describe(@"Lunch Lady Client", ^{
     });
     
     it(@"spits back response for a visited places request", ^{
-        __block NSArray *visitedPlacesArray = nil;
-        
+
         [client fetchVisitedPlacesWithBlock:^(NSArray *response) {
             visitedPlacesArray = response;
         }];
         
-        [[expectFutureValue(visitedPlacesArray) shouldEventuallyBeforeTimingOutAfter(30.0)] beNonNil];
+        [[expectFutureValue(visitedPlacesArray) shouldEventuallyBeforeTimingOutAfter(5.0)] beNonNil];
+    });
+    
+    it(@"lets you post a place to the rails app (postPath: style)", ^{
+        
+        [client submitVisitedPlace:@"49ca7a59f964a520ae581fe3" withBlock:^(NSArray *response) {
+            someResponse = response;
+        }];
+        
+        [[expectFutureValue(someResponse) shouldEventuallyBeforeTimingOutAfter(5.0)] beNonNil];
+        
+    });
+    
+    it(@"lets you post a place to the rails app (manual request style)", ^{
+        
+        [client pushVisitedPlace:@"49ca7a59f964a520ae581fe3" withBlock:^(NSArray *response) {
+            someOtherResponse = response;
+        }];
+        
+        [[expectFutureValue(someOtherResponse) shouldEventuallyBeforeTimingOutAfter(5.0)] beNonNil];
+        
     });
     
 });
